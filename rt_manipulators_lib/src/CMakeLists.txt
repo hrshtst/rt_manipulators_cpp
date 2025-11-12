@@ -1,7 +1,7 @@
 find_package(yaml-cpp REQUIRED)
 find_package(Threads REQUIRED)
 
-set(library_name ${CMAKE_PROJECT_NAME})
+set(library_name rt_manipulators_cpp)
 
 add_library(${library_name}
     SHARED
